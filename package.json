@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ailada.github.io/factory-dashboard",
+  "homepage": "https://ailada-w.github.io/factory-dashboard",
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
@@ -26,7 +26,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
