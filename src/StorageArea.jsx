@@ -20,7 +20,7 @@ const StorageArea = ({ storageData }) => {
           backgroundColor: '#f4f4f4',
         },
         title: {
-          text: `Snapshot ${index + 1} - Storage Levels`,
+          text: `เครื่องจักร ${index + 1} - Storage Levels`,
         },
         xAxis: {
           categories: snapshot.map((storage) => `${storage.Tagname} - ${storage.Material}`),

@@ -53,7 +53,7 @@ function App() {
         <div className="machine-area">
           {snapshots.map((snapshot, index) => (
             <div key={index} className="snapshot">
-              <h2>Snapshot #{index + 1}</h2>
+              <h2>เครื่องจักร #{index + 1}</h2>
               <div className="machine-grid">
                 {snapshot.map((machine) => (
                   <div className="card" key={machine.Id_pk}>
